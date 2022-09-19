@@ -28,7 +28,7 @@ contract CryptoDevs is ERC721Enumerable, Ownable {
     IWhitelist whitelist;
 
     // boolean to keep track of whether presale started or not
-    bool public presaleStarted;
+    bool public presaleStarted = true;
 
     // timestamp for when presale would end
     uint256 public presaleEnded;
